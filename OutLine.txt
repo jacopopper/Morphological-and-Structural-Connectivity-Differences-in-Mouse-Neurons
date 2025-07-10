@@ -1,30 +1,33 @@
-Morphological and Functional differencies in neurons of the Primary Visual Area and the Rostrolateral Visual Area.
+**Morphological and Functional Differences in Neurons of the Primary Visual Area and the Rostrolateral Visual Area**
 
-Primary Visual Cortex (V1):
+---
 
-Funzione: Prima area corticale a ricevere input visivo dal nucleo genicolato laterale del talamo. Importante per l'elaborazione visiva di base come bordi, orientamento, movimento e colore.
-Caratteristiche Morfologiche dei Neuroni: I neuroni nella V1, in particolare le cellule piramidali, hanno arborizzazioni dendritiche dense e organizzate. Questi neuroni sono specializzati per rilevare caratteristiche visive specifiche come orientamento, direzione e colore.
+**Primary Visual Cortex (V1):**
 
-Rostrolateral Visual Area (RL):
+* **Function:** First cortical area to receive visual input from the lateral geniculate nucleus of the thalamus. Crucial for basic visual processing such as edges, orientation, motion, and color.
+* **Neuronal Morphology:** Neurons in V1—particularly pyramidal cells—have dense, highly organized dendritic arbors. These neurons are specialized for detecting specific visual features like orientation, direction of motion, and color.
 
-Funzione: Coinvolta nell'elaborazione visiva avanzata e nell'integrazione delle informazioni visive provenienti da diverse fonti.
-Caratteristiche Morfologiche dei Neuroni: I neuroni nella RL tendono ad avere arborizzazioni dendritiche più estese e complesse rispetto a quelli nella V1, permettendo una maggiore integrazione delle informazioni visive.
+**Rostrolateral Visual Area (RL):**
 
----------------------------------------------------------
--Feature strutturali da esaminare:
-Dimensione frattale
-Numero biforcazioni
-Distribuzione degli angoli di biforcazione
-Lunghezza media dei segmenti
+* **Function:** Involved in higher-level visual processing and in integrating visual information from multiple sources.
+* **Neuronal Morphology:** Neurons in RL tend to exhibit more extensive and complex dendritic arbors compared to those in V1, supporting a greater degree of sensory integration.
 
+---
 
+**Structural Features to Examine:**
 
--Analisi funzionale:
-Per ciascun neurone, interrogo l'API dell'Allen Institute e, ricavate le coordinate delle foglie dell'assone, etichetto queste posizioni con il compartimento relativo del cervello.
-Confronto le distribuzioni delle foglie assoniche in V1 e RL per identificare differenze nella connettività funzionale.
+* Fractal dimension
+* Number of bifurcations
+* Distribution of bifurcation angles
+* Mean segment length
 
+**Functional Analysis:**
 
-Essendo la funzione delle due aree piuttosto diversa, dovrei trovare divergenze strutturali e funzionali tra i neuroni che appartengono ad esse.
-Su MouseLight Neuron Browser ci sono dati su 126 assoni per la V1 e 31 per la RL. 
-Mi faccia sapere se reputa idonea la scelta della aree e delle feature da misurare.
+1. For each neuron, query the Allen Institute API to retrieve the coordinates of axonal terminals (“leaves”).
+2. Label each terminal by its corresponding brain compartment.
+3. Compare the distributions of axonal terminals in V1 versus RL to identify differences in functional connectivity.
 
+Because the roles of these two areas differ substantially, we expect to observe both structural and functional divergences between neurons in V1 and RL.
+
+On the MouseLight Neuron Browser there are data for 126 axons in V1 and 31 in RL.
+Please let me know if you consider the choice of areas and the selected features appropriate.
