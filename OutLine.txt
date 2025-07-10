@@ -1,0 +1,30 @@
+Morphological and Functional differencies in neurons of the Primary Visual Area and the Rostrolateral Visual Area.
+
+Primary Visual Cortex (V1):
+
+Funzione: Prima area corticale a ricevere input visivo dal nucleo genicolato laterale del talamo. Importante per l'elaborazione visiva di base come bordi, orientamento, movimento e colore.
+Caratteristiche Morfologiche dei Neuroni: I neuroni nella V1, in particolare le cellule piramidali, hanno arborizzazioni dendritiche dense e organizzate. Questi neuroni sono specializzati per rilevare caratteristiche visive specifiche come orientamento, direzione e colore.
+
+Rostrolateral Visual Area (RL):
+
+Funzione: Coinvolta nell'elaborazione visiva avanzata e nell'integrazione delle informazioni visive provenienti da diverse fonti.
+Caratteristiche Morfologiche dei Neuroni: I neuroni nella RL tendono ad avere arborizzazioni dendritiche più estese e complesse rispetto a quelli nella V1, permettendo una maggiore integrazione delle informazioni visive.
+
+---------------------------------------------------------
+-Feature strutturali da esaminare:
+Dimensione frattale
+Numero biforcazioni
+Distribuzione degli angoli di biforcazione
+Lunghezza media dei segmenti
+
+
+
+-Analisi funzionale:
+Per ciascun neurone, interrogo l'API dell'Allen Institute e, ricavate le coordinate delle foglie dell'assone, etichetto queste posizioni con il compartimento relativo del cervello.
+Confronto le distribuzioni delle foglie assoniche in V1 e RL per identificare differenze nella connettività funzionale.
+
+
+Essendo la funzione delle due aree piuttosto diversa, dovrei trovare divergenze strutturali e funzionali tra i neuroni che appartengono ad esse.
+Su MouseLight Neuron Browser ci sono dati su 126 assoni per la V1 e 31 per la RL. 
+Mi faccia sapere se reputa idonea la scelta della aree e delle feature da misurare.
+
